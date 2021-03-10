@@ -1,0 +1,39 @@
+.dashboard {
+  padding: 1rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  color: #3c3c3c;
+  font-size: 120%;
+  min-height: 80vh;
+}
+.habits__list {
+  list-style: none;
+  padding: 0;
+}
+
+.habits__list__item:last-child {
+  border-bottom: solid 0rem;
+}
+
+.habits__list__item {
+  border-bottom: solid 0.1rem;
+}
+.habit__name {
+  font-size: 120%;
+}
+
+.scoreboard__item {
+  display: flex;
+  justify-content: space-evenly;
+  /* border-top: solid 0.1rem; */
+}
+
+.scoreboard__item:last-child {
+  /* border-bottom: solid 0.1rem; */
+}
+
+@media all and (min-width: 900px) {
+  .dashboard {
+    padding: 1rem 5rem;
+  }
+}

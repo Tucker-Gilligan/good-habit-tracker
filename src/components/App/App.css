@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -7,8 +7,14 @@
   pointer-events: none;
 }
 
+.main__container {
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 1rem;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #1b96a8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,3 +27,7 @@
 .App-link {
   color: #61dafb;
 }
+
+.registration_container {
+  background-color: #1b96a8;
+} */

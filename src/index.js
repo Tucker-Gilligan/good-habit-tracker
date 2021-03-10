@@ -4,10 +4,15 @@ import './index.css';
 import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from 'react-router-dom';
-
+import { UserProvider } from './contexts/UserContext';
+import { HabitsProvider } from './contexts/HabitsContext';
 ReactDOM.render(
   <Router>
-    <App />
+    <UserProvider>
+      <HabitsProvider>
+        <App />
+      </HabitsProvider>
+    </UserProvider>
   </Router>,
   document.getElementById('root')
 );
