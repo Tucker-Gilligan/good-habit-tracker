@@ -102,6 +102,15 @@
   display: flex;
 }
 
+.public__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2.5rem;
+  width: 80%;
+  margin: auto;
+}
+
 @media all and (min-width: 900px) {
   .login__route {
     display: flex;
@@ -115,7 +124,7 @@
     text-align: center;
   }
 
-  .nav__links {
+  .public__links {
     width: 50vh;
     margin: 0;
   }

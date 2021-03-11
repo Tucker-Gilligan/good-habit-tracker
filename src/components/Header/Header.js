@@ -37,7 +37,7 @@ class Header extends Component {
         <p className='tagline'>
           Achieve your goals with habits with the Good Habits Tracker!
         </p>
-        <nav className='nav__links'>
+        <nav className='public__links'>
           <Link to='/login' className='login__link'>
             Login
           </Link>
